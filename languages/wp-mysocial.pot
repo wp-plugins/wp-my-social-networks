@@ -1,0 +1,289 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP My Social Networks\n"
+"POT-Creation-Date: 2013-11-03 17:57+0100\n"
+"PO-Revision-Date: 2013-11-03 17:57+0100\n"
+"Last-Translator: Florent <contact@restezconnectes.fr>\n"
+"Language-Team: Florent Maillefaud <contact@restezconnectes.fr>\n"
+"Language: Français\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: /Users/Florent/Sites/test.local.sites.fr/www/wp-"
+"content/plugins/wp-mysocialnetworks\n"
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:12
+msgid "Options saved."
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:25
+msgid "Facebook"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:26
+msgid "Twitter"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:27
+msgid "Google+"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:28
+msgid "AddThis"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:29
+msgid "Options"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:30
+msgid "About"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:44
+msgid "Facebook Like button"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:49
+msgid "Display the Facebook Like button"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:54
+msgid "Display the Facebook Send button"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:62
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:93
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:143
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:187
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:217
+msgid "Select the type"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:65
+msgid "Position the Facebook Like"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:68
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:99
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:149
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:193
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:223
+msgid "On the main page"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:71
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:102
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:152
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:196
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:226
+msgid "On the posts"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:74
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:104
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:155
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:199
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:229
+msgid "On the categories"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:77
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:107
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:158
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:202
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:232
+msgid "On the pages"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:82
+msgid "Facebook Share button"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:85
+msgid "Display the Facebook Share button"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:96
+msgid "Position the Facebook Share"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:113
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:163
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:238
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:267
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:310
+msgid "Save this settings"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:126
+msgid "Twitter button"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:130
+msgid "Display re-twitt button"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:135
+msgid "This user will be refered in the tweet"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:140
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:215
+msgid "Vertical"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:141
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:216
+msgid "Horizontal"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:142
+msgid "No count"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:146
+msgid "Position the Twitter button"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:175
+msgid "Google +1 button"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:178
+msgid "Display the +1 button"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:183
+msgid "Standard"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:184
+msgid "Small"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:185
+msgid "Medium"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:186
+msgid "Large"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:190
+msgid "Position the Google +1 button"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:206
+msgid "Google+ Share Button"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:209
+msgid "Display the Share Google+ Button"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:214
+msgid "None"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:220
+msgid "Position the Google+ Share Button"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:251
+msgid "AddThis button"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:255
+msgid "Create your account here:"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:258
+msgid "Display Addthis button"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:261
+msgid "Addthis account"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:279
+msgid "Don't display on Posts/Pages"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:281
+msgid ""
+"Enter the <b>ID's</b> of those Pages/Posts separated by comma. e.g "
+"13,5,87<br/>You can also include a <b>custom post types</b> or <b>custom "
+"post format</b> (all separated by comma)"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:284
+msgid "Don't display on Category"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:286
+msgid "Enter the ID's of those Categories separated by comma. e.g 131,45,817"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:291
+msgid "Where to Display"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:292
+msgid "Display Above Content"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:293
+msgid "Display Below Content"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:295
+msgid "If some other plugin is adding the Facebook Meta tags"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:296
+msgid "Do not add Facebook OG META tags"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:298
+msgid "Add a margin?"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:300
+msgid "Top margin:"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:305
+msgid "Bottom margin:"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:324
+msgid ""
+"This plugin has been developed for you for free by <a href=\"http://www."
+"restezconnectes.fr\" target=\"_blank\">Florent Maillefaud</ a>. It is "
+"royalty free, you can take it, modify it, distribute it as you see fit. <br /"
+"> <br />It would be desirable that I can get feedback on your potential "
+"changes to improve this plugin for all."
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials-admin.php:329
+msgid ""
+"If you want Donate (French Paypal) for my current and future developments:"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials.php:41
+msgid "Settings"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials.php:319
+msgid "Display social networks options"
+msgstr ""
+
+#: /Users/Florent/Sites/test.local.sites.fr/www/wp-content/plugins/wp-mysocialnetworks/wp-mysocials.php:319
+msgid "Social Networks"
+msgstr ""
