@@ -6,7 +6,7 @@ Plugin URI: http://wordpress.org/plugins/wp-my-social-networks
 Description: Propose un encart avec différents réseaux sociaux. Facebook Like & Send, Twitter, +1 de Google. Le tout paramètrable et en multilangue.
 Author: Florent Maillefaud
 Author URI: http://www.restezconnectes.fr/
-Version: 1.1
+Version: 1.2
 */
 
 
@@ -37,7 +37,7 @@ function wpmysocial_make_multilang() {
 
 // Add "Réglages" link on plugins page
 /* Ajout réglages au plugin */
-$wpmysocial_dashboard = ( is_admin() ) ? 'options-general.php?page=wp-mysocialnetworks/wp-mysocials.php' : '';
+$wpmysocial_dashboard = ( is_admin() ) ? 'options-general.php?page='.basename(dirname(__FILE__)).'/wp-mysocials.php' : '';
 define( 'WP_SETTINGS', $wpmysocial_dashboard);
 add_filter( 'plugin_action_links_' . WP_BASENAME, 'wpmysocial_plugin_actions' );
 function wpmysocial_plugin_actions ( $links ) {
@@ -185,16 +185,6 @@ function afficheReseauxSociaux() {
                     <!-- AddThis Button END -->
                  </div>';
         }
-        /* ------------ */
-        //$output .= '<div><a href="mailto:?subject=Un%20ami%20vous%20fait%20partager%20:%20'.get_the_title().'&amp;body=D&eacute;couvrez%20<strong>'.get_the_title().'</strong>%20:%20<a href='.get_permalink().'>'.get_permalink().'</a>" rel="nofollow" target="_blank" title="Partagez cet article par Email">Email</a></div>
-
-/*$output .= '<a href="#contact_form_pop" class="fancybox">Contact Us</a>
- *              <div style="display:none" class="fancybox-hidden">
-                <div id="contact_form_pop">
-                    form ici
-                </div>
-            </div>';*/
-        /*$output .= do_shortcode('[tell-a-friend id="1" title="Recommander cette page"]');*/
         $output .= '</div>';
         /* Fin div pour les boutons des réseaux sociaux */
 
@@ -311,10 +301,10 @@ echo '
 }
 
 function wpmysocials_admin_scripts() {
-    wp_register_script('wpm-admin-settings', WP_PLUGIN_URL.'/wp-mysocialnetworks/wp-mysocials-admin-settings.js');
+    wp_register_script('wpm-admin-settings', WP_PLUGIN_URL.'/'.basename(dirname(__FILE__)).'/wp-mysocials-admin-settings.js');
     wp_enqueue_script('wpm-admin-settings');
 }
-if (isset($_GET['page']) && $_GET['page'] == 'wp-mysocialnetworks/wp-mysocials.php') {
+if (isset($_GET['page']) && $_GET['page'] == basename(dirname(__FILE__)).'/wp-mysocials.php') {
     add_action('admin_print_scripts', 'wpmysocials_admin_scripts');
 }
 
@@ -354,7 +344,7 @@ function wpmysocials_admin() {
     
         
     /* Ajoute la version dans les options */
-    add_option('wpmysocial_plugin_version', '1.1');
+    add_option('wpmysocial_plugin_version', '1.2');
     
     // On recupère la langue
     $recupLang = explode('_', WPLANG);
