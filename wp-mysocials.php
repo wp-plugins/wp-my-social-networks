@@ -4,13 +4,14 @@
 Plugin Name: WP My Social Networks
 Plugin URI: http://www.restezconnectes.fr/plugins/mesreseauxsociaux-plugin.zip
 Description: Propose un encart avec différents réseaux sociaux. Facebook Like & Send, Twitter, +1 de Google. Le tout paramètrable et en multilangue.
-Version: 1.0
+Version: 1.1
 */
 
 
 /*
 Change Log
-13/01/2012 - Modification pour page accueil
+04/11/2013 - Résolution de bugs et mise à jour
+13/01/2012 - Modifications pour page accueil
 16/07/2011 - Ajout d'options des positions (2)
 08/07/2011 - Ajout de la page Uninstall
 08/07/2011 - Ajout d'options des positions
@@ -318,38 +319,40 @@ if (isset($_GET['page']) && $_GET['page'] == 'wp-mysocialnetworks/wp-mysocials.p
 function wpmysocials_admin() {
     $hook = add_options_page( __('Display social networks options', 'wp-mysocial'), __('Social Networks', 'wp-mysocial'),  10, __FILE__, "wpmysocials_admin_panel");
     
-    $wpmysocials_AdminOptions = array(  
-        'fb_like_btn' => 1,
-        'fb_send_btn' => 1,
-        'fb_faces_btn' => 1,
-        'fb_type_btnlike' => 'button_count',
-        'fb_settings_single' => 1,
-        'fb_settings_page' => 1,
-        'fb_share_btn' => 1,
-        'fb_share_settings_single' => 1,
-        'twitt_btn' => 1,
-        'twitt_settings_single' => 1,
-        'twitt_settings_page' => 1,
-        'twitt_type_btn '=> 'horizontal',
-        'plusone_settings_single' => 1,
-        'plusone_settings_page' => 1,
-        'plusone_btn' => 1,
-        'plusone_type_btn' => 'medium',
-        'margin_top' => 20,
-        'margin_bottom' => 0
-    );  
-    $wpmysocials_Settings = get_option('wpmysocial_plugin_settings');  
-    if (!empty($wpmysocials_Settings)) {  
-        foreach ($wpmysocials_Settings as $key => $option) {
-            $wpmysocials_AdminOptions[$key] = $option;
+    // Valeurs par défaut
+    if(!get_option('wpmysocial_plugin_settings')) { 
+        $wpmysocials_AdminOptions = array(  
+            'fb_like_btn' => 1,
+            'fb_send_btn' => 1,
+            'fb_faces_btn' => 1,
+            'fb_type_btnlike' => 'button_count',
+            'fb_settings_single' => 1,
+            'fb_settings_page' => 1,
+            'fb_share_btn' => '',
+            'fb_share_settings_single' => 1,
+            'twitt_btn' => 1,
+            'twitt_settings_single' => 1,
+            'twitt_settings_page' => 1,
+            'twitt_type_btn '=> 'horizontal',
+            'plusone_settings_single' => 1,
+            'plusone_settings_page' => 1,
+            'plusone_btn' => 1,
+            'plusone_type_btn' => 'medium',
+            'margin_top' => 20,
+            'margin_bottom' => 0
+        );  
+        $wpmysocials_Settings = get_option('wpmysocial_plugin_settings');  
+        if (!empty($wpmysocials_Settings)) {  
+            foreach ($wpmysocials_Settings as $key => $option) {
+                $wpmysocials_AdminOptions[$key] = $option;
+            }
         }
+        update_option('wpmysocial_plugin_settings', $wpmysocials_AdminOptions);
     }
-    update_option('wpmysocial_plugin_settings', $wpmysocials_AdminOptions);  
     
         
     /* Ajoute la version dans les options */
-    $optionVersion['wpmysocial_plugin_version'] = '1.0';
-    add_option('wpmysocial_plugin_version', $optionVersion);
+    add_option('wpmysocial_plugin_version', '1.1');
     
     // On recupère la langue
     $recupLang = explode('_', WPLANG);
