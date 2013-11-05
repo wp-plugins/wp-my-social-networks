@@ -8,6 +8,7 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Personnaliser et afficher des boutons de partage des réseaux sociaux sur votre article / page.
+
 Customize and display buttons sharing social networks on your article / page.
 
 Langues disponibles / Languages :
@@ -18,15 +19,41 @@ Langues disponibles / Languages :
 Fichier wp-mysocial.pot disponible / wp-mysocial.pot file available
 
 == Description ==
+
+= FR =
+
 Personnaliser et afficher des boutons de partage des réseaux sociaux sur votre article / page.
+
+WP My Social Networks vous propose quelques options :
+- Placer avant, après ou les deux, vos boutons de partage
+- Ajouter (si vous le souhaitez) les Meta Tags de Facebook
+- Exclure vos boutons de partage des pages ou articles de votre choix
+
+= EN =
+
 Customize and display buttons sharing social networks on your article / page.
 
+WP My Social Networks offers a few options:
+- Place before, after or both, your share buttons
+- Add (if you wish) Meta Tags Facebook
+- Exclude your buttons sharing pages or items of your choice
+
 == Installation ==
-1. Ajouter le répertoire 'wp-mysocialnetworks' dans le répertoire '/wp-content/plugins/' / Upload the full directory into your '/wp-content/plugins' directory
-2. Activer le plugin via le menu 'Plugins' dans WordPress / Activate the plugin at the plugin administration page
-3. Aller à 'Options->Réseaux Sociaux' dans l'interface d'administration pour sélectionner vos options / Open the plugin configuration page, which is located under 'Option->WP Social Networks'
+
+= FR =
+
+1. Ajouter le répertoire 'wp-mysocialnetworks' dans le répertoire '/wp-content/plugins/'
+2. Activer le plugin via le menu 'Plugins' dans WordPress
+3. Aller à 'Options->Réseaux Sociaux' dans l'interface d'administration pour sélectionner vos options
+
+= EN =
+
+1. Upload the full directory into your '/wp-content/plugins' directory
+2. Activate the plugin at the plugin administration page
+3. Open the plugin configuration page, which is located under 'Option->WP Social Networks'
 
 == CSS ==
+
 La feuille de style CSS pour le plugin ce trouve aussi dans ce même répertoire.
 Stylesheet is in the same folder.
 
