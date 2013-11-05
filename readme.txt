@@ -25,18 +25,24 @@ Fichier wp-mysocial.pot disponible / wp-mysocial.pot file available
 Personnaliser et afficher des boutons de partage des réseaux sociaux sur votre article / page.
 
 WP My Social Networks vous propose quelques options :
-1. Placer avant, après ou les deux, vos boutons de partage
-2. Ajouter (si vous le souhaitez) les Meta Tags de Facebook
-3. Exclure vos boutons de partage des pages ou articles de votre choix
+
+- Placer avant, après ou les deux, vos boutons de partage
+
+- Ajouter (si vous le souhaitez) les Meta Tags de Facebook
+
+- Exclure vos boutons de partage des pages ou articles de votre choix
 
 = EN =
 
 Customize and display buttons sharing social networks on your article / page.
 
 WP My Social Networks offers a few options:
-1. Place before, after or both, your share buttons
-2. Add (if you wish) Meta Tags Facebook
-3. Exclude your buttons sharing pages or items of your choice
+
+- Place before, after or both, your share buttons
+
+- Add (if you wish) Meta Tags Facebook
+
+- Exclude your buttons sharing pages or items of your choice
 
 == Installation ==
 
