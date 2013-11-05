@@ -22,12 +22,13 @@ $options = get_option('wpmysocial_plugin_settings');
      <!-- TABS OPTIONS -->
     <div id="icon-options-general" class="icon32"><br></div>
     <h2 class="nav-tab-wrapper">
-        <a id="wpmysocial-menu-a" class="nav-tab nav-tab-active" href="#a" onfocus="this.blur();"><?php _e('Facebook', 'wp-mysocial'); ?></a>
-        <a id="wpmysocial-menu-b" class="nav-tab" href="#b" onfocus="this.blur();"><?php _e('Twitter', 'wp-mysocial'); ?></a>
-        <a id="wpmysocial-menu-c" class="nav-tab" href="#c" onfocus="this.blur();"><?php _e('Google+', 'wp-mysocial'); ?></a>
-        <a id="wpmysocial-menu-d" class="nav-tab" href="#d" onfocus="this.blur();"><?php _e('AddThis', 'wp-mysocial'); ?></a>
-        <a id="wpmysocial-menu-e" class="nav-tab" href="#e" onfocus="this.blur();"><?php _e('Options', 'wp-mysocial'); ?></a>
-        <a id="wpmysocial-menu-about" class="nav-tab" href="#about" onfocus="this.blur();"><?php _e('About', 'wp-mysocial'); ?></a>
+        <a id="wpmysocial-menu-a" class="nav-tab nav-tab-active" href="#a" onfocus="this.blur();"><img src="<?php echo WP_PLUGIN_URL.'/'.basename(dirname(__FILE__)); ?>/images/facebook.png" style="vertical-align:text-bottom;margin-right:3px;" height="20" width="20" /><?php _e('Facebook', 'wp-mysocial'); ?></a>
+        <a id="wpmysocial-menu-b" class="nav-tab" href="#b" onfocus="this.blur();"><img src="<?php echo WP_PLUGIN_URL.'/'.basename(dirname(__FILE__)); ?>/images/twitter.png" style="vertical-align:text-bottom;margin-right:3px;" height="20" width="20" /><?php _e('Twitter', 'wp-mysocial'); ?></a>
+        <a id="wpmysocial-menu-c" class="nav-tab" href="#c" onfocus="this.blur();"><img src="<?php echo WP_PLUGIN_URL.'/'.basename(dirname(__FILE__)); ?>/images/google.png" style="vertical-align:text-bottom;margin-right:3px;" height="20" width="20" /><?php _e('Google+', 'wp-mysocial'); ?></a>
+        <a id="wpmysocial-menu-d" class="nav-tab" href="#d" onfocus="this.blur();"><img src="<?php echo WP_PLUGIN_URL.'/'.basename(dirname(__FILE__)); ?>/images/linkedin.png" style="vertical-align:text-bottom;margin-right:3px;" height="20" width="20" /><?php _e('LinkedIn', 'wp-mysocial'); ?></a>
+        <a id="wpmysocial-menu-e" class="nav-tab" href="#e" onfocus="this.blur();"><img src="<?php echo WP_PLUGIN_URL.'/'.basename(dirname(__FILE__)); ?>/images/addthis.png" style="vertical-align:text-bottom;margin-right:3px;" height="20" width="20" /><?php _e('AddThis', 'wp-mysocial'); ?></a>
+        <a id="wpmysocial-menu-f" class="nav-tab" href="#f" onfocus="this.blur();"><img src="<?php echo WP_PLUGIN_URL.'/'.basename(dirname(__FILE__)); ?>/images/hand-down.png" style="vertical-align:text-bottom;margin-right:3px;" height="20" width="20" /><?php _e('Options', 'wp-mysocial'); ?></a>
+        <a id="wpmysocial-menu-about" class="nav-tab" href="#about" onfocus="this.blur();"><img src="<?php echo WP_PLUGIN_URL.'/'.basename(dirname(__FILE__)); ?>/images/circle.png" style="vertical-align:text-bottom;margin-right:3px;" height="20" width="20" /><?php _e('About', 'wp-mysocial'); ?></a>
     </h2>
     
     <div style="margin-left:25px;margin-top: 15px;">
@@ -241,10 +242,53 @@ $options = get_option('wpmysocial_plugin_settings');
                     </div>
                 </div>
                 <!-- fin C -->
-
-                <!--  Onglets D -->
+                
+                 <!--  Onglets D -->
                 <div class="wpmysocial-menu-d wpmysocial-menu-group" style="display: none;">
                     <div id="wpmysocial-opt-d"  >
+                         <ul>
+                            <!-- BOUTON LINKEDIN -->
+                            <li><h3><?php _e('LinkedIn button', 'wp-mysocial'); ?></h3></li>
+                            <li>
+                                <label>
+                                    <input type="checkbox" name="wpmysocial_plugin_settings[linkedin_btn]" value="1" <?php if($options['linkedin_btn']==1) { echo "checked"; } ?> />  <?php _e('Display the LinkedIn button', 'wp-mysocial'); ?>
+                                </label>
+                            </li>
+                            <li>
+                                <label><select name="wpmysocial_plugin_settings[linkedin_type_btn]">
+                                        <option value="top" <?php if($options['linkedin_type_btn']=="top") { echo "selected"; } ?> /><?php _e('Top', 'wp-mysocial'); ?></option>
+                                        <option value="right" <?php if($options['linkedin_type_btn']=="right") { echo "selected"; } ?> /><?php _e('Right', 'wp-mysocial'); ?></option>
+                                        <option value="none" <?php if($options['linkedin_type_btn']=="none") { echo "selected"; } ?> /><?php _e('None', 'wp-mysocial'); ?></option>
+                                        </select>  <?php _e('Select the type', 'wp-mysocial'); ?>
+                                </label>
+                            </li>
+                            <li><h3><?php _e('Position the LinkedIn button', 'wp-mysocial'); ?></h3></li>
+                            <li>
+                                <label>
+                                    <input type="checkbox" name="wpmysocial_plugin_settings[linkedin_settings_home]" value="1" <?php if($options['linkedin_settings_home']==1) { echo "checked"; } ?> />  <?php _e('On the main page', 'wp-mysocial'); ?>
+                                </label> 
+                                <label>
+                                    <input type="checkbox" name="wpmysocial_plugin_settings[linkedin_settings_single]" value="1" <?php if($options['linkedin_settings_single']==1) { echo "checked"; } ?> />  <?php _e('On the posts', 'wp-mysocial'); ?>
+                                </label> 
+                                <label>
+                                    <input type="checkbox" name="wpmysocial_plugin_settings[linkedin_settings_category]" value="1" <?php if($options['linkedin_settings_category']==1) { echo "checked"; } ?> />  <?php _e('On the categories', 'wp-mysocial'); ?>
+                                </label> 
+                                <label>
+                                    <input type="checkbox" name="wpmysocial_plugin_settings[linkedin_settings_page]" value="1" <?php if($options['linkedin_settings_page']==1) { echo "checked"; } ?> />  <?php _e('On the pages', 'wp-mysocial'); ?>
+                                </label>
+                            </li>
+                            <li> &nbsp;</li>
+                            <li>
+                                <a href="#d" id="submitbutton" OnClick="document.forms['valide_wpmysocial'].submit();this.blur();" name="Save" class="button-primary"><span> <?php _e('Save this settings', 'wp-mysocial'); ?> </span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- fin D -->
+
+                <!--  Onglets E -->
+                <div class="wpmysocial-menu-e wpmysocial-menu-group" style="display: none;">
+                    <div id="wpmysocial-opt-e"  >
                          <ul>
                             <!--  -->
                             <li>
@@ -264,16 +308,16 @@ $options = get_option('wpmysocial_plugin_settings');
                             <li> &nbsp;</li>
 
                             <li>
-                                <a href="#d" id="submitbutton" OnClick="document.forms['valide_wpmysocial'].submit();this.blur();" name="Save" class="button-primary"><span> <?php _e('Save this settings', 'wp-mysocial'); ?> </span></a>
+                                <a href="#e" id="submitbutton" OnClick="document.forms['valide_wpmysocial'].submit();this.blur();" name="Save" class="button-primary"><span> <?php _e('Save this settings', 'wp-mysocial'); ?> </span></a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <!-- fin D -->
+                <!-- fin E -->
 
-                <!--  Onglets E -->
-                <div class="wpmysocial-menu-e wpmysocial-menu-group" style="display: none;">
-                    <div id="wpmysocial-opt-e"  >
+                <!--  Onglets F -->
+                <div class="wpmysocial-menu-f wpmysocial-menu-group" style="display: none;">
+                    <div id="wpmysocial-opt-f"  >
                          <ul>
                             <!--  -->
                             <li><h3><?php _e("Don't display on Posts/Pages", 'wp-mysocial'); ?></h3><li>
@@ -307,12 +351,12 @@ $options = get_option('wpmysocial_plugin_settings');
                             <li> &nbsp;</li>
 
                             <li>
-                                <a href="#e" id="submitbutton" OnClick="document.forms['valide_wpmysocial'].submit();this.blur();" name="Save" class="button-primary"><span> <?php _e('Save this settings', 'wp-mysocial'); ?> </span></a>
+                                <a href="#f" id="submitbutton" OnClick="document.forms['valide_wpmysocial'].submit();this.blur();" name="Save" class="button-primary"><span> <?php _e('Save this settings', 'wp-mysocial'); ?> </span></a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <!-- fin E -->
+                <!-- fin F -->
                 
                 </form>
         

@@ -6,12 +6,13 @@ Plugin URI: http://wordpress.org/plugins/wp-my-social-networks
 Description: Propose un encart avec différents réseaux sociaux. Facebook Like & Send, Twitter, +1 de Google. Le tout paramètrable et en multilangue.
 Author: Florent Maillefaud
 Author URI: http://www.restezconnectes.fr/
-Version: 1.3
+Version: 1.4
 */
 
 
 /*
 Change Log
+05/11/2013 - Ajout LinkedIn et images admin
 05/11/2013 - Bug mise à jour paramètres
 04/11/2013 - Résolution de bugs et mise à jour
 13/01/2012 - Modifications pour page accueil
@@ -62,7 +63,8 @@ function afficheReseauxSociaux() {
             'fb_faces' => $fb_faces_settings_single,
             'plusone' => $plusone_settings_single,
             'shareplusone' => $shareplusone_settings_single,
-            'twitter' => $twitt_settings_single
+            'twitter' => $twitt_settings_single,
+            'linkedin' => $linkedin_settings_single
         );
 
     } else if(is_page()) {
@@ -72,7 +74,8 @@ function afficheReseauxSociaux() {
             'fb_faces' => $fb_faces_settings_page,
             'plusone' => $plusone_settings_page,
             'shareplusone' => $shareplusone_settings_page,
-            'twitter' => $twitt_settings_page
+            'twitter' => $twitt_settings_page,
+            'linkedin' => $linkedin_settings_page
         );
 
     } else if(is_home()) {
@@ -82,7 +85,8 @@ function afficheReseauxSociaux() {
             'fb_faces' => $fb_faces_settings_home,
             'plusone' => $plusone_settings_home,
             'shareplusone' => $shareplusone_settings_home,
-            'twitter' => $twitt_settings_home
+            'twitter' => $twitt_settings_home,
+            'linkedin' => $linkedin_settings_home
         );
 
     } else {
@@ -92,12 +96,13 @@ function afficheReseauxSociaux() {
             'fb_faces' => $fb_faces_settings_category,
             'plusone' => $plusone_settings_category,
             'shareplusone' => $shareplusone_settings_category,
-            'twitter' => $twitt_settings_category
+            'twitter' => $twitt_settings_category,
+            'linkedin' => $linkedin_settings_category
         );
 
     }
 
-    if($fb_settings_single==1 or $fb_share_settings_single==1 or $plusone_settings_single==1 or $twitt_settings_single==1) {
+    if($fb_settings_single==1 or $fb_share_settings_single==1 or $plusone_settings_single==1 or $twitt_settings_single==1 or $linkedin_settings_single==1) {
         $linkPermaLink = get_permalink($post->ID);
     } else {
         $linkPermaLink = the_permalink();
@@ -165,6 +170,18 @@ function afficheReseauxSociaux() {
                  </div>';
         }
         /* ------------ */
+        
+        /* Bouton ShareIn */
+        if($linkedin_btn==1 && $positionReseaux['linkedin']==1) {
+            if($linkedin_type_btn!='none') { $printLinkedin = 'data-counter="'.$linkedin_type_btn.'"'; }
+            $output .= '<div id="wp-socials-linkedin">
+                           <script src="//platform.linkedin.com/in.js" type="text/javascript">
+                            lang: '.WPLANG.'
+                           </script>
+                           <script type="IN/Share" data-url="'.$linkPermaLink.'" '.$printLinkedin.'"></script>
+                       </div>';
+        }
+        /* ------------ */
 
         /* Bouton AddThis */
         if($addthis_btn==1) {
@@ -176,19 +193,21 @@ function afficheReseauxSociaux() {
                 $addThisMore = '<script type="text/javascript">var addthis_config = {"services_exclude":facebook,myspace};</script>';
             }
             $output .= '<div id="wp-socials-addthis">
-                    <!-- AddThis Button BEGIN -->
-                    <div class="addthis_toolbox addthis_default_style ">
-                    <a class="addthis_button_compact"></a>
-                    <a class="addthis_counter addthis_bubble_style"></a>
-                    </div>
-                    '.$addThisMore.'
-                    <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid='.$pubId.'"></script>
-                    <!-- AddThis Button END -->
-                 </div>';
+                            <!-- AddThis Button BEGIN -->
+                            <div class="addthis_toolbox addthis_default_style ">
+                            <a class="addthis_button_compact"></a>
+                            <a class="addthis_counter addthis_bubble_style"></a>
+                            </div>
+                            '.$addThisMore.'
+                            <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid='.$pubId.'"></script>
+                            <!-- AddThis Button END -->
+                       </div>';
         }
         $output .= '</div>';
         /* Fin div pour les boutons des réseaux sociaux */
 
+         
+        
     $output .= '<div style="clear:both"></div>';
     $output .= '</div>';
     /* fin div général */
@@ -345,7 +364,7 @@ function wpmysocials_admin() {
     
         
     /* Ajoute la version dans les options */
-    add_option('wpmysocial_plugin_version', '1.3');
+    add_option('wpmysocial_plugin_version', '1.4');
     
     // On recupère la langue
     $recupLang = explode('_', WPLANG);

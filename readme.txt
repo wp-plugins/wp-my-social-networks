@@ -3,7 +3,7 @@ Contributors: Florent73
 Tags: réseaux sociaux facebook google plus twitter social networks
 Requires at least: 2.0
 Tested up to: 3.6
-Stable tag: 1.3
+Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -81,11 +81,14 @@ Oui mais merci de me soumettre les modifications souhaitées afin de mettre à j
 
 == Upgrade Notice ==
 
-= 1.3 =
+= 1.4 =
 Cette version est stable / This version is stable
 
 
 == Changelog ==
+
+= 1.4 =
+* Ajout LinkedIn et images admin / Add LinkedIn button and images for admin panel
 
 = 1.3 =
 * Bugs sur les options suplémentaires résolus / Options Bugs fixed

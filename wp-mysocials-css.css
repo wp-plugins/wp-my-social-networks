@@ -17,14 +17,13 @@
 .wp-socials input[type="reset"],
 .wp-socials select { float:right;}
 
-
 #wp-socials-fb-like { float:left;margin-right:5px; }
 #wp-socials-general-btn { float: left;margin-top:8px;margin-bottom:8px;height:22px; }
 #wp-socials-fb-share { float:left;margin-right:5px; }
 #wp-socials-twitter { float:left;margin-right:5px; }
+#wp-socials-linkedin { float:left;margin-right:5px; }
 #wp-socials-plusone { float:left;margin-right:5px; }
 #wp-socials-addthis { float:left;margin-right:5px; }
-.clear { float:none !important;float:none;clear:both;margin-bottom:10px; }
+
 .wp-social-espace5 { margin-bottom: 5px; }
 .wp-social-espace8 { margin-bottom: 8px; }
-.fb_share_link { padding:2px 0 0 20px; height:16px; background:url(http://static.ak.facebook.com/images/share/facebook_share_icon.gif?6:26981) no-repeat top left; }
