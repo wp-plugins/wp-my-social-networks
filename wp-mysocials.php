@@ -6,12 +6,13 @@ Plugin URI: http://wordpress.org/plugins/wp-my-social-networks
 Description: Propose un encart avec différents réseaux sociaux. Facebook Like & Send, Twitter, +1 de Google. Le tout paramètrable et en multilangue.
 Author: Florent Maillefaud
 Author URI: http://www.restezconnectes.fr/
-Version: 1.2
+Version: 1.3
 */
 
 
 /*
 Change Log
+05/11/2013 - Bug mise à jour paramètres
 04/11/2013 - Résolution de bugs et mise à jour
 13/01/2012 - Modifications pour page accueil
 16/07/2011 - Ajout d'options des positions (2)
@@ -207,9 +208,9 @@ function add_social_content($content) {
     if( get_option('wpmysocial_plugin_settings') )  {
         extract( get_option('wpmysocial_plugin_settings') );
         $output = afficheReseauxSociaux();
-        if(get_option('wpmysocial_abovepost')) {
+        if(get_option('wpmysocial_abovepost')==true && !get_option('wpmysocial_belowpost')) {
             $returnContent = $output.$content;
-        } else if(get_option('wpmysocial_belowpost')) {         
+        } else if(get_option('wpmysocial_belowpost')==true && !get_option('wpmysocial_abovepost')) {         
             $returnContent = $content.$output;
         } else {
             $returnContent = $output.$content.$output;
@@ -344,7 +345,7 @@ function wpmysocials_admin() {
     
         
     /* Ajoute la version dans les options */
-    add_option('wpmysocial_plugin_version', '1.2');
+    add_option('wpmysocial_plugin_version', '1.3');
     
     // On recupère la langue
     $recupLang = explode('_', WPLANG);

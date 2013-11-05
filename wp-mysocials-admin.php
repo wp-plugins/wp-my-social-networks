@@ -2,24 +2,12 @@
 /* Update si changements */
 if($_POST['action'] == 'update') {
     
-    if($_POST["wpmysocial_plugin_settings"]!='') {
-        update_option('wpmysocial_plugin_settings', $_POST["wpmysocial_plugin_settings"]);
-    }
-    if($_POST["wpmysocial_excludeid"]!='') {
-        update_option('wpmysocial_excludeid', $_POST["wpmysocial_excludeid"]);
-    }
-    if($_POST["wpmysocial_excludecat"]!='') {
-        update_option('wpmysocial_excludecat', $_POST["wpmysocial_excludecat"]);
-    }
-    if($_POST["wpmysocial_excludemeta"]!='') {
-        update_option('wpmysocial_excludemeta', $_POST["wpmysocial_excludemeta"]);
-    }
-    if($_POST["wpmysocial_belowpost"]!='') {
-        update_option('wpmysocial_belowpost', $_POST["wpmysocial_belowpost"]);
-    }
-    if($_POST["wpmysocial_abovepost"]!='') {
-        update_option('wpmysocial_abovepost', $_POST["wpmysocial_abovepost"]);
-    }
+    update_option('wpmysocial_plugin_settings', $_POST["wpmysocial_plugin_settings"]);
+    update_option('wpmysocial_excludeid', $_POST["wpmysocial_excludeid"]);
+    update_option('wpmysocial_excludecat', $_POST["wpmysocial_excludecat"]);
+    update_option('wpmysocial_excludemeta', $_POST["wpmysocial_excludemeta"]);
+    update_option('wpmysocial_belowpost', $_POST["wpmysocial_belowpost"]);
+    update_option('wpmysocial_abovepost', $_POST["wpmysocial_abovepost"]);
     $options_saved = true;
     echo '<div id="message" class="updated fade"><p><strong>'.__('Options saved.', 'wp-mysocial').'</strong></p></div>';
 }

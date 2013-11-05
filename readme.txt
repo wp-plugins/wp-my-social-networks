@@ -3,7 +3,7 @@ Contributors: Florent73
 Tags: réseaux sociaux facebook google plus twitter social networks
 Requires at least: 2.0
 Tested up to: 3.6
-Stable tag: 1.2
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -48,11 +48,14 @@ Oui mais merci de me soumettre les modifications souhaitées afin de mettre à j
 
 == Upgrade Notice ==
 
-= 1.2 =
+= 1.3 =
 Cette version est stable / This version is stable
 
 
 == Changelog ==
+
+= 1.3 =
+* Bugs sur les options suplémentaires résolus / Options Bugs fixed
 
 = 1.2 =
 * Bugs résolus / Bugs fixed
