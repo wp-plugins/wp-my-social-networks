@@ -2,7 +2,7 @@
 
 /*
 Plugin Name: WP My Social Networks
-Plugin URI: http://wordpress.org/plugins/wp-my-social-networks
+Plugin URI: http://www.restezconnectes.fr/un-plugin-wordpress-pour-partager-sur-les-reseaux-sociaux/
 Description: Propose un encart avec différents réseaux sociaux. Facebook Like & Send, Twitter, +1 de Google. Le tout paramètrable et en multilangue.
 Author: Florent Maillefaud
 Author URI: http://www.restezconnectes.fr/
