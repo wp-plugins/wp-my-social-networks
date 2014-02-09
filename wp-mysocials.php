@@ -6,12 +6,13 @@ Plugin URI: http://www.restezconnectes.fr/un-plugin-wordpress-pour-partager-sur-
 Description: Propose un encart avec différents réseaux sociaux. Facebook Like & Send, Twitter, +1 de Google. Le tout paramètrable et en multilangue.
 Author: Florent Maillefaud
 Author URI: http://www.restezconnectes.fr/
-Version: 1.4
+Version: 1.5
 */
 
 
 /*
 Change Log
+09/02/2014 - Amélioration pour le responsive design
 05/11/2013 - Ajout LinkedIn et images admin
 05/11/2013 - Bug mise à jour paramètres
 04/11/2013 - Résolution de bugs et mise à jour
@@ -364,7 +365,7 @@ function wpmysocials_admin() {
     
         
     /* Ajoute la version dans les options */
-    add_option('wpmysocial_plugin_version', '1.4');
+    add_option('wpmysocial_plugin_version', '1.5');
     
     // On recupère la langue
     $recupLang = explode('_', WPLANG);

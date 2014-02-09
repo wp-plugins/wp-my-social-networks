@@ -1,9 +1,9 @@
-=== WP My Social Networks ===
+﻿=== WP My Social Networks ===
 Contributors: Florent73
 Tags: réseaux sociaux facebook google plus twitter social networks
 Requires at least: 2.0
-Tested up to: 3.6
-Stable tag: 1.4
+Tested up to: 3.8.1
+Stable tag: 1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -81,11 +81,14 @@ Oui mais merci de me soumettre les modifications souhaitées afin de mettre à j
 
 == Upgrade Notice ==
 
-= 1.4 =
+= 1.5 =
 Cette version est stable / This version is stable
 
 
 == Changelog ==
+
+= 1.5 =
+* Amélioration pour le responsive design / Improvement for responsive design
 
 = 1.4 =
 * Ajout LinkedIn et images admin / Add LinkedIn button and images for admin panel
