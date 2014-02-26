@@ -2,11 +2,11 @@
 
 /*
 Plugin Name: WP My Social Networks
-Plugin URI: http://www.restezconnectes.fr/un-plugin-wordpress-pour-partager-sur-les-reseaux-sociaux/
+Plugin URI: http://wordpress.org/plugins/wp-my-social-networks
 Description: Propose un encart avec différents réseaux sociaux. Facebook Like & Send, Twitter, +1 de Google. Le tout paramètrable et en multilangue.
 Author: Florent Maillefaud
 Author URI: http://www.restezconnectes.fr/
-Version: 1.5
+Version: 1.6
 */
 
 
@@ -108,6 +108,7 @@ function afficheReseauxSociaux() {
     } else {
         $linkPermaLink = the_permalink();
     }
+        
     /* div général */
     $output .= '<div id="wp-socials" style="margin-top:'.$margin_top.'px;margin-bottom:'.$margin_bottom.'px;">';
     
@@ -212,8 +213,17 @@ function afficheReseauxSociaux() {
     $output .= '<div style="clear:both"></div>';
     $output .= '</div>';
     /* fin div général */
-
-    return $output;
+        
+    if(
+        $positionReseaux['plusone']==1 or 
+        $positionReseaux['shareplusone']==1 or 
+        $positionReseaux['fb_like']==1 or 
+        $positionReseaux['fb_share']==1 or 
+        $positionReseaux['twitter']==1 or 
+        $positionReseaux['linkedin']==1
+    ) {
+        return $output;
+    }
 }
 
 function add_social_content($content) {
@@ -365,7 +375,7 @@ function wpmysocials_admin() {
     
         
     /* Ajoute la version dans les options */
-    add_option('wpmysocial_plugin_version', '1.5');
+    add_option('wpmysocial_plugin_version', '1.6');
     
     // On recupère la langue
     $recupLang = explode('_', WPLANG);
