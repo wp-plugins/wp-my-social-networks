@@ -6,12 +6,13 @@ Plugin URI: http://wordpress.org/plugins/wp-my-social-networks
 Description: Propose un encart avec différents réseaux sociaux. Facebook Like & Send, Twitter, +1 de Google. Le tout paramètrable et en multilangue.
 Author: Florent Maillefaud
 Author URI: http://www.restezconnectes.fr/
-Version: 1.6
+Version: 1.7
 */
 
 
 /*
 Change Log
+22/09/2014 - Ajout d'une metabox pour le choix d'affichage sur chaque article
 09/02/2014 - Amélioration pour le responsive design
 05/11/2013 - Ajout LinkedIn et images admin
 05/11/2013 - Bug mise à jour paramètres
@@ -51,6 +52,34 @@ function wpmysocial_plugin_actions ( $links ) {
 
 if(function_exists('register_deactivation_hook')) {
     register_deactivation_hook(__FILE__, 'wpmysocials_uninstall');
+}
+
+//Meta Box pour afficher ou non les réseaux sociaux par article
+add_action('admin_menu','wpmysocial_init_metaboxes');
+function wpmysocial_init_metaboxes(){
+  //on utilise la fonction add_metabox() pour initialiser une metabox
+  add_meta_box('wpmysocial_active', __('Display the sharing buttons', 'wp-mysocial'), 'wpmysocial_meta_function', 'post', 'normal', 'high');
+}
+// build meta box, and get meta
+function wpmysocial_meta_function($post){
+    global $post;
+    // on récupère la valeur actuelle pour la mettre dans le champ
+    $valActive = get_post_meta($post->ID,'wpmysocial_active',true);
+    echo '<label for="wpmysocial_active"><p>'.__('Choose whether or not to display buttons for social networks:', 'wp-mysocial').'</label></p><br />';
+    echo __('Yes', 'wp-mysocial').'<input id="wpmysocial_active" type="radio" name="wpmysocial_active" value="true" ';
+    if($valActive == 'true' or $valActive == '') { echo 'checked'; } 
+    echo ' />&nbsp;';
+    echo __('No', 'wp-mysocial').'<input id="wpmysocial_active" type="radio" name="wpmysocial_active" value="false" ';
+    if($valActive == 'false') { echo 'checked'; } 
+    echo ' />&nbsp;';
+}
+// save meta box with update
+add_action('save_post','wpmysocial_save_metaboxes');
+function wpmysocial_save_metaboxes($post_ID){
+    // si la metabox est définie, on sauvegarde sa valeur
+    if(isset($_POST['wpmysocial_active'])){
+        update_post_meta($post_ID,'wpmysocial_active', esc_html($_POST['wpmysocial_active']));
+    }
 }
 
 function afficheReseauxSociaux() {
@@ -108,7 +137,13 @@ function afficheReseauxSociaux() {
     } else {
         $linkPermaLink = the_permalink();
     }
-        
+    /*
+    * CONTROLE SI IL FAUT AFFICHER LES BOUTONS OU PAS
+    */
+    global $post;
+    $initActive = get_post_meta($post->ID, 'wpmysocial_active', true);
+    /* FIN CONTROLE */
+    
     /* div général */
     $output .= '<div id="wp-socials" style="margin-top:'.$margin_top.'px;margin-bottom:'.$margin_bottom.'px;">';
     
@@ -213,7 +248,7 @@ function afficheReseauxSociaux() {
     $output .= '<div style="clear:both"></div>';
     $output .= '</div>';
     /* fin div général */
-        
+    if($initActive=='false') { $output = ''; }
     if(
         $positionReseaux['plusone']==1 or 
         $positionReseaux['shareplusone']==1 or 
@@ -375,7 +410,7 @@ function wpmysocials_admin() {
     
         
     /* Ajoute la version dans les options */
-    add_option('wpmysocial_plugin_version', '1.6');
+    add_option('wpmysocial_plugin_version', '1.7');
     
     // On recupère la langue
     $recupLang = explode('_', WPLANG);
