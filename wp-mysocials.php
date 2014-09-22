@@ -57,8 +57,9 @@ if(function_exists('register_deactivation_hook')) {
 //Meta Box pour afficher ou non les réseaux sociaux par article
 add_action('admin_menu','wpmysocial_init_metaboxes');
 function wpmysocial_init_metaboxes(){
-  //on utilise la fonction add_metabox() pour initialiser une metabox
-  add_meta_box('wpmysocial_active', __('Display the sharing buttons', 'wp-mysocial'), 'wpmysocial_meta_function', 'post', 'normal', 'high');
+    //on utilise la fonction add_metabox() pour initialiser une metabox
+    add_meta_box('wpmysocial_active', __('Display the sharing buttons', 'wp-mysocial'), 'wpmysocial_meta_function', 'post', 'normal', 'high');
+    add_meta_box('wpmysocial_active', __('Display the sharing buttons', 'wp-mysocial'), 'wpmysocial_meta_function', 'page', 'normal', 'high');
 }
 // build meta box, and get meta
 function wpmysocial_meta_function($post){

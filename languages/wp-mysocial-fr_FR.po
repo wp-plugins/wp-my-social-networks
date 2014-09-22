@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WP My Social Networks\n"
-"POT-Creation-Date: 2014-09-22 13:53+0100\n"
-"PO-Revision-Date: 2014-09-22 13:53+0100\n"
+"POT-Creation-Date: 2014-09-22 14:37+0100\n"
+"PO-Revision-Date: 2014-09-22 14:37+0100\n"
 "Last-Translator: Florent <contact@restezconnectes.fr>\n"
 "Language-Team: Florent Maillefaud <contact@restezconnectes.fr>\n"
 "Language: fr\n"
@@ -25,6 +25,7 @@ msgstr ""
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:12
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:12
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:12
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:12
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:12
 msgid "Options saved."
 msgstr "Options sauvegardées."
@@ -37,6 +38,7 @@ msgstr "Options sauvegardées."
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:25
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:25
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:25
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:25
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:25
 msgid "Facebook"
 msgstr "Facebook"
@@ -49,6 +51,7 @@ msgstr "Facebook"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:26
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:26
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:26
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:26
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:26
 msgid "Twitter"
 msgstr "Twitter"
@@ -61,6 +64,7 @@ msgstr "Twitter"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:27
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:27
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:27
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:27
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:27
 msgid "Google+"
 msgstr "Google+"
@@ -73,6 +77,7 @@ msgstr "Google+"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:29
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:29
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:29
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:29
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:29
 msgid "AddThis"
 msgstr "AddThis"
@@ -85,6 +90,7 @@ msgstr "AddThis"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:30
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:30
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:30
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:30
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:30
 msgid "Options"
 msgstr "Options"
@@ -97,6 +103,7 @@ msgstr "Options"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:31
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:31
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:31
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:31
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:31
 msgid "About"
 msgstr "A propos"
@@ -109,6 +116,7 @@ msgstr "A propos"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:45
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:45
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:45
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:45
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:45
 msgid "Facebook Like button"
 msgstr "Bouton J'aime de Facebook"
@@ -121,6 +129,7 @@ msgstr "Bouton J'aime de Facebook"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:50
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:50
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:50
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:50
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:50
 msgid "Display the Facebook Like button"
 msgstr "Afficher le bouton J'aime de Facebook"
@@ -133,6 +142,7 @@ msgstr "Afficher le bouton J'aime de Facebook"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:55
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:55
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:55
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:55
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:55
 msgid "Display the Facebook Send button"
 msgstr "Afficher le bouton Envoyer de Facebook"
@@ -176,6 +186,12 @@ msgstr "Afficher le bouton Envoyer de Facebook"
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:188
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:218
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:262
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:63
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:94
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:144
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:188
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:218
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:262
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:63
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:94
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:144
@@ -193,6 +209,7 @@ msgstr "Sélectionnez le type"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:66
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:66
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:66
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:66
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:66
 msgid "Position the Facebook Like"
 msgstr "Position du bouton"
@@ -236,6 +253,12 @@ msgstr "Position du bouton"
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:194
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:224
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:268
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:69
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:100
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:150
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:194
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:224
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:268
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:69
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:100
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:150
@@ -284,6 +307,12 @@ msgstr "Sur la page principale"
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:197
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:227
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:271
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:72
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:103
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:153
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:197
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:227
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:271
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:72
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:103
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:153
@@ -332,6 +361,12 @@ msgstr "Sur les articles"
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:200
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:230
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:274
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:75
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:105
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:156
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:200
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:230
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:274
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:75
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:105
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:156
@@ -380,6 +415,12 @@ msgstr "Sur les catégories"
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:203
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:233
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:277
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:78
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:108
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:159
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:203
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:233
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:277
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:78
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:108
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:159
@@ -397,6 +438,7 @@ msgstr "Sur les pages"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:83
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:83
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:83
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:83
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:83
 msgid "Facebook Share button"
 msgstr "Bouton Partager Facebook"
@@ -409,6 +451,7 @@ msgstr "Bouton Partager Facebook"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:86
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:86
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:86
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:86
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:86
 msgid "Display the Facebook Share button"
 msgstr "Afficher le bouton Partager de Facebook"
@@ -421,6 +464,7 @@ msgstr "Afficher le bouton Partager de Facebook"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:97
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:97
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:97
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:97
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:97
 msgid "Position the Facebook Share"
 msgstr "Postition du bouton Partager de Facebook"
@@ -464,6 +508,12 @@ msgstr "Postition du bouton Partager de Facebook"
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:282
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:311
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:354
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:114
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:164
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:239
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:282
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:311
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:354
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:114
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:164
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:239
@@ -481,6 +531,7 @@ msgstr "Sauvegarder ces paramètres"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:127
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:127
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:127
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:127
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:127
 msgid "Twitter button"
 msgstr "Bouton Twitter"
@@ -493,6 +544,7 @@ msgstr "Bouton Twitter"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:131
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:131
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:131
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:131
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:131
 msgid "Display re-twitt button"
 msgstr "Afficher le bouton re-Twitte ?"
@@ -505,6 +557,7 @@ msgstr "Afficher le bouton re-Twitte ?"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:136
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:136
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:136
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:136
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:136
 msgid "This user will be refered in the tweet"
 msgstr "Cet utilisateur sera mentionné dans le tweet"
@@ -524,6 +577,8 @@ msgstr "Cet utilisateur sera mentionné dans le tweet"
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:216
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:141
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:216
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:141
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:216
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:141
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:216
 msgid "Vertical"
@@ -544,6 +599,8 @@ msgstr "Vertical"
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:217
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:142
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:217
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:142
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:217
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:142
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:217
 msgid "Horizontal"
@@ -557,6 +614,7 @@ msgstr "Horizontal"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:143
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:143
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:143
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:143
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:143
 msgid "No count"
 msgstr "Pas de compteur"
@@ -569,6 +627,7 @@ msgstr "Pas de compteur"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:147
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:147
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:147
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:147
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:147
 msgid "Position the Twitter button"
 msgstr "Position du bouton Twitter"
@@ -581,6 +640,7 @@ msgstr "Position du bouton Twitter"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:176
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:176
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:176
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:176
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:176
 msgid "Google +1 button"
 msgstr "Bouton +1 de Google"
@@ -593,6 +653,7 @@ msgstr "Bouton +1 de Google"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:179
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:179
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:179
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:179
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:179
 msgid "Display the +1 button"
 msgstr "Afficher le bouton +1"
@@ -605,6 +666,7 @@ msgstr "Afficher le bouton +1"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:184
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:184
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:184
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:184
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:184
 msgid "Standard"
 msgstr "Standard"
@@ -617,6 +679,7 @@ msgstr "Standard"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:185
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:185
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:185
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:185
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:185
 msgid "Small"
 msgstr "Petit"
@@ -629,6 +692,7 @@ msgstr "Petit"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:186
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:186
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:186
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:186
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:186
 msgid "Medium"
 msgstr "Moyen"
@@ -641,6 +705,7 @@ msgstr "Moyen"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:187
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:187
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:187
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:187
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:187
 msgid "Large"
 msgstr "Large"
@@ -653,6 +718,7 @@ msgstr "Large"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:191
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:191
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:191
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:191
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:191
 msgid "Position the Google +1 button"
 msgstr "Position du bouton +1"
@@ -665,6 +731,7 @@ msgstr "Position du bouton +1"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:207
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:207
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:207
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:207
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:207
 msgid "Google+ Share Button"
 msgstr "Bouton Partager de Google+"
@@ -677,6 +744,7 @@ msgstr "Bouton Partager de Google+"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:210
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:210
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:210
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:210
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:210
 msgid "Display the Share Google+ Button"
 msgstr "Afficher le bouton Google+"
@@ -692,6 +760,8 @@ msgstr "Afficher le bouton Google+"
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:261
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:215
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:261
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:215
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:261
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:215
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:261
 msgid "None"
@@ -705,6 +775,7 @@ msgstr "Aucun"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:221
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:221
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:221
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:221
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:221
 msgid "Position the Google+ Share Button"
 msgstr "Postition du bouton Partager de Google"
@@ -717,6 +788,7 @@ msgstr "Postition du bouton Partager de Google"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:295
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:295
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:295
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:295
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:295
 msgid "AddThis button"
 msgstr "Bouton AddThis"
@@ -729,6 +801,7 @@ msgstr "Bouton AddThis"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:299
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:299
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:299
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:299
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:299
 msgid "Create your account here:"
 msgstr "Créer votre compte ici :"
@@ -741,6 +814,7 @@ msgstr "Créer votre compte ici :"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:302
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:302
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:302
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:302
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:302
 msgid "Display Addthis button"
 msgstr "Afficher le bouton AddThis"
@@ -753,6 +827,7 @@ msgstr "Afficher le bouton AddThis"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:305
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:305
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:305
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:305
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:305
 msgid "Addthis account"
 msgstr "Compte AddThis"
@@ -765,6 +840,7 @@ msgstr "Compte AddThis"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:323
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:323
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:323
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:323
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:323
 msgid "Don't display on Posts/Pages"
 msgstr "Ne pas afficher sur ces Pages / Articles"
@@ -777,6 +853,7 @@ msgstr "Ne pas afficher sur ces Pages / Articles"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:325
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:325
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:325
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:325
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:325
 msgid ""
 "Enter the <b>ID's</b> of those Pages/Posts separated by comma. e.g "
@@ -795,6 +872,7 @@ msgstr ""
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:328
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:328
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:328
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:328
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:328
 msgid "Don't display on Category"
 msgstr "Ne pas afficher sur ces catégories"
@@ -807,6 +885,7 @@ msgstr "Ne pas afficher sur ces catégories"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:330
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:330
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:330
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:330
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:330
 msgid "Enter the ID's of those Categories separated by comma. e.g 131,45,817"
 msgstr ""
@@ -820,6 +899,7 @@ msgstr ""
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:335
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:335
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:335
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:335
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:335
 msgid "Where to Display"
 msgstr "Où afficher le tout"
@@ -832,6 +912,7 @@ msgstr "Où afficher le tout"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:336
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:336
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:336
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:336
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:336
 msgid "Display Above Content"
 msgstr "Afficher avant le contenu"
@@ -844,6 +925,7 @@ msgstr "Afficher avant le contenu"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:337
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:337
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:337
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:337
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:337
 msgid "Display Below Content"
 msgstr "Afficher après le contenu"
@@ -856,6 +938,7 @@ msgstr "Afficher après le contenu"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:339
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:339
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:339
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:339
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:339
 msgid "If some other plugin is adding the Facebook Meta tags"
 msgstr "Si un autre plugin ajoute les OG Meta Tags de Facebook"
@@ -868,6 +951,7 @@ msgstr "Si un autre plugin ajoute les OG Meta Tags de Facebook"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:340
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:340
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:340
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:340
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:340
 msgid "Do not add Facebook OG META tags"
 msgstr "Ne pas ajouter les OG Meta Tags de Facebook"
@@ -880,6 +964,7 @@ msgstr "Ne pas ajouter les OG Meta Tags de Facebook"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:342
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:342
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:342
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:342
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:342
 msgid "Add a margin?"
 msgstr "Ajouter une marge ?"
@@ -892,6 +977,7 @@ msgstr "Ajouter une marge ?"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:344
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:344
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:344
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:344
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:344
 msgid "Top margin:"
 msgstr "Marge du haut :"
@@ -904,6 +990,7 @@ msgstr "Marge du haut :"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:349
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:349
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:349
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:349
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:349
 msgid "Bottom margin:"
 msgstr "Marge du bas :"
@@ -916,6 +1003,7 @@ msgstr "Marge du bas :"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:368
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:368
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:368
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:368
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:368
 msgid ""
 "This plugin has been developed for you for free by <a href=\"http://www."
@@ -939,6 +1027,7 @@ msgstr ""
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:373
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:373
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:373
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:373
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:373
 msgid ""
 "If you want Donate (French Paypal) for my current and future developments:"
@@ -953,6 +1042,7 @@ msgstr ""
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials.php:46
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials.php:47
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials.php:47
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials.php:48
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials.php:48
 msgid "Settings"
 msgstr "Réglages"
@@ -965,6 +1055,7 @@ msgstr "Réglages"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials.php:332
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials.php:343
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials.php:333
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials.php:378
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials.php:378
 msgid "Display social networks options"
 msgstr "Afficher les options Réseaux Sociaux"
@@ -977,6 +1068,7 @@ msgstr "Afficher les options Réseaux Sociaux"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials.php:332
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials.php:343
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials.php:333
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials.php:378
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials.php:378
 msgid "Social Networks"
 msgstr "Réseaux Sociaux"
@@ -985,6 +1077,7 @@ msgstr "Réseaux Sociaux"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:28
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:28
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:28
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:28
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:28
 msgid "LinkedIn"
 msgstr "LinkedIn"
@@ -993,6 +1086,7 @@ msgstr "LinkedIn"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:251
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:251
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:251
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:251
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:251
 msgid "LinkedIn button"
 msgstr "Bouton J'aime de LinkedIn"
@@ -1001,6 +1095,7 @@ msgstr "Bouton J'aime de LinkedIn"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:254
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:254
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:254
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:254
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:254
 msgid "Display the LinkedIn button"
 msgstr "Afficher le bouton LinkedIn"
@@ -1009,6 +1104,7 @@ msgstr "Afficher le bouton LinkedIn"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:259
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:259
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:259
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:259
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:259
 msgid "Top"
 msgstr "Haut"
@@ -1017,6 +1113,7 @@ msgstr "Haut"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:260
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:260
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:260
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:260
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:260
 msgid "Right"
 msgstr "Droite"
@@ -1025,27 +1122,32 @@ msgstr "Droite"
 #: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:265
 #: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:265
 #: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:265
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:265
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:265
 msgid "Position the LinkedIn button"
 msgstr "Position du bouton LinkedIn"
 
 #: C:\wamp\www\www\Plugin
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials.php:61
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials.php:61
 msgid "Display the sharing buttons"
 msgstr "Afficher les boutons de partage"
 
 #: C:\wamp\www\www\Plugin
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials.php:68
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials.php:68
 msgid "Choose whether or not to display buttons for social networks:"
 msgstr ""
 "Choisissez si vous souhaitez ou non afficher les boutons des réseaux sociaux:"
 
 #: C:\wamp\www\www\Plugin
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials.php:69
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials.php:69
 msgid "Yes"
 msgstr "Oui"
 
 #: C:\wamp\www\www\Plugin
+#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials.php:72
 #: Wordpress\wp-my-social-networks/trunk/wp-mysocials.php:72
 msgid "No"
 msgstr "Non"
