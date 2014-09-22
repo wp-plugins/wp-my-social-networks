@@ -66,11 +66,11 @@ function wpmysocial_meta_function($post){
     global $post;
     // on récupère la valeur actuelle pour la mettre dans le champ
     $valActive = get_post_meta($post->ID,'wpmysocial_active',true);
-    echo '<label for="wpmysocial_active"><p>'.__('Choose whether or not to display buttons for social networks:', 'wp-mysocial').'</label></p><br />';
-    echo __('Yes', 'wp-mysocial').'<input id="wpmysocial_active" type="radio" name="wpmysocial_active" value="true" ';
+    echo '<label for="wpmysocial_active"><p>'.__('Choose whether or not to display buttons for social networks:', 'wp-mysocial').'</label></p>';
+    echo __('Yes', 'wp-mysocial').'&nbsp;<input id="wpmysocial_active" type="radio" name="wpmysocial_active" value="true" ';
     if($valActive == 'true' or $valActive == '') { echo 'checked'; } 
     echo ' />&nbsp;';
-    echo __('No', 'wp-mysocial').'<input id="wpmysocial_active" type="radio" name="wpmysocial_active" value="false" ';
+    echo __('No', 'wp-mysocial').'&nbsp;<input id="wpmysocial_active" type="radio" name="wpmysocial_active" value="false" ';
     if($valActive == 'false') { echo 'checked'; } 
     echo ' />&nbsp;';
 }

@@ -32,6 +32,8 @@ WP My Social Networks vous propose quelques options :
 
 - Exclure vos boutons de partage des pages ou articles de votre choix
 
+- MetaBox pour exclure vos boutons de partage sur les pages ou articles de votre choix
+
 = EN =
 
 Customize and display buttons sharing social networks on your article / page.
@@ -43,6 +45,8 @@ WP My Social Networks offers a few options:
 - Add (if you wish) Meta Tags Facebook
 
 - Exclude your buttons sharing pages or items of your choice
+
+- Metabox for exclude buttons sharing in your pages or posts of your choice
 
 == Installation ==
 
