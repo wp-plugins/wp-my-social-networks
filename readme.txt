@@ -92,7 +92,7 @@ Cette version est stable / This version is stable
 == Changelog ==
 
 = 1.8 =
-* Compatible version 4.2.2 / Compatibility for version 4.2.2
+* Compatible version 4.2.2 et ajout édition CSS / Compatibility for version 4.2.2 and add edit css
 
 = 1.7 =
 * Ajout d'une metabox pour le choix d'affichage sur chaque article / Add metabox for display or not the share buttons on every post

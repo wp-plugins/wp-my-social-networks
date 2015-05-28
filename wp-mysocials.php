@@ -322,6 +322,9 @@ function wpmysocials_css() {
     $siteurl = get_option('siteurl');
     $url = $siteurl.'/wp-content/plugins/'.basename(dirname(__FILE__)).'/wp-mysocials-css.css';
     echo "<link href='$url' rel='stylesheet' type='text/css' />";
+    if(!get_option('wpmysocial_plugin_style') or get_option('wpmysocial_plugin_style')=='') { 
+        update_option('wpmysocial_plugin_style', wpsocials_print_style());
+    }
     echo "<style type='text/css'>".get_option('wpmysocial_plugin_style').'</style>';
 }
 
