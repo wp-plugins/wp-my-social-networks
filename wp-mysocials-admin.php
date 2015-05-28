@@ -3,6 +3,7 @@
 if($_POST['action'] == 'update') {
     
     update_option('wpmysocial_plugin_settings', $_POST["wpmysocial_plugin_settings"]);
+    update_option('wpmysocial_plugin_style', $_POST["wpmysocial_plugin_style"]);
     update_option('wpmysocial_excludeid', $_POST["wpmysocial_excludeid"]);
     update_option('wpmysocial_excludecat', $_POST["wpmysocial_excludecat"]);
     update_option('wpmysocial_excludemeta', $_POST["wpmysocial_excludemeta"]);
@@ -14,6 +15,16 @@ if($_POST['action'] == 'update') {
 // Récupère les paramètres sauvegardés
 if(get_option('wpmysocial_plugin_settings')) { extract(get_option('wpmysocial_plugin_settings')); }
 $options = get_option('wpmysocial_plugin_settings');
+
+/* Si on réinitialise les feuille de styles  */
+if( isset($_POST['wpmysocial_initcss']) && $_POST['wpmysocial_initcss']==1) {
+    update_option( 'wpmysocial_plugin_style', wpsocials_print_style() );
+    $options_saved = true;
+    echo '<div id="message" class="updated fade"><p><strong>'.__('The Style Sheet has been reset!', 'wp-maintenance').'</strong></p></div>';
+}
+if( get_option('wpmysocial_plugin_style')=='' ) {
+    update_option( 'wpmysocial_plugin_style', wpsocials_print_style() );
+}
 
 ?>
 <style type="text/css">.postbox h3 { cursor:pointer; }</style>
@@ -27,6 +38,7 @@ $options = get_option('wpmysocial_plugin_settings');
         <a id="wpmysocial-menu-c" class="nav-tab" href="#c" onfocus="this.blur();"><img src="<?php echo WP_PLUGIN_URL.'/'.basename(dirname(__FILE__)); ?>/images/google.png" style="vertical-align:text-bottom;margin-right:3px;" height="20" width="20" /><?php _e('Google+', 'wp-mysocial'); ?></a>
         <a id="wpmysocial-menu-d" class="nav-tab" href="#d" onfocus="this.blur();"><img src="<?php echo WP_PLUGIN_URL.'/'.basename(dirname(__FILE__)); ?>/images/linkedin.png" style="vertical-align:text-bottom;margin-right:3px;" height="20" width="20" /><?php _e('LinkedIn', 'wp-mysocial'); ?></a>
         <a id="wpmysocial-menu-e" class="nav-tab" href="#e" onfocus="this.blur();"><img src="<?php echo WP_PLUGIN_URL.'/'.basename(dirname(__FILE__)); ?>/images/addthis.png" style="vertical-align:text-bottom;margin-right:3px;" height="20" width="20" /><?php _e('AddThis', 'wp-mysocial'); ?></a>
+        <a id="wpmysocial-menu-g" class="nav-tab" href="#g" onfocus="this.blur();"><img src="<?php echo WP_PLUGIN_URL.'/'.basename(dirname(__FILE__)); ?>/images/css.png" style="vertical-align:text-bottom;margin-right:3px;" height="20" width="20" /><?php _e('CSS Style', 'wp-mysocial'); ?></a>
         <a id="wpmysocial-menu-f" class="nav-tab" href="#f" onfocus="this.blur();"><img src="<?php echo WP_PLUGIN_URL.'/'.basename(dirname(__FILE__)); ?>/images/hand-down.png" style="vertical-align:text-bottom;margin-right:3px;" height="20" width="20" /><?php _e('Options', 'wp-mysocial'); ?></a>
         <a id="wpmysocial-menu-about" class="nav-tab" href="#about" onfocus="this.blur();"><img src="<?php echo WP_PLUGIN_URL.'/'.basename(dirname(__FILE__)); ?>/images/circle.png" style="vertical-align:text-bottom;margin-right:3px;" height="20" width="20" /><?php _e('About', 'wp-mysocial'); ?></a>
     </h2>
@@ -82,7 +94,7 @@ $options = get_option('wpmysocial_plugin_settings');
                             <!-- BOUTON FACEBOOK SHARE -->
                             <li><h3><?php _e('Facebook Share button', 'wp-mysocial'); ?></h3></li>
                             <li>
-                                <label><?php echo $options['fb_share_btn']; ?>
+                                <label>
                                     <input type="checkbox" name="wpmysocial_plugin_settings[fb_share_btn]" value="1" <?php if($options['fb_share_btn']==1) { echo "checked"; } ?> />  <?php _e('Display the Facebook Share button', 'wp-mysocial'); ?>
                                 </label>
                             </li>
@@ -314,6 +326,29 @@ $options = get_option('wpmysocial_plugin_settings');
                     </div>
                 </div>
                 <!-- fin E -->
+
+                <!-- Onglet options 5 -->
+                <div class="wpmysocial-menu-g wpmysocial-menu-group" style="display: none;">
+                    <div id="wpmysocial-opt-g"  >
+                         <ul>
+                            <!-- UTILISER UNE FEUILLE DE STYLE PERSO -->
+                            <li>
+                                <h3><?php _e('CSS style sheet code:', 'wp-mysocial'); ?></h3>
+                                <?php _e('Edit the CSS sheet here. Click "Reset" and "Save" to retrieve the default style sheet.', 'wp-mysocial'); ?><br />
+                                <TEXTAREA NAME="wpmysocial_plugin_style" COLS=40 ROWS=14 style="width:100%;"><?php echo stripslashes(trim(get_option('wpmysocial_plugin_style'))); ?></TEXTAREA>
+                            </li>
+                            <li>
+                                <input type= "checkbox" name="wpmysocial_initcss" value="1" id="initcss" >&nbsp;<label for="wpmysocial_initcss"><?php _e('Reset default CSS stylesheet ?', 'wp-mysocial'); ?></label>
+                             </li>
+                            <li>&nbsp;</li>
+
+                            <li>
+                                <a href="#g" id="submitbutton" OnClick="document.forms['valide_wpmysocial'].submit();this.blur();" name="Save" class="button-primary"><span> <?php _e('Save this settings', 'wp-mysocial'); ?> </span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- fin options G -->
 
                 <!--  Onglets F -->
                 <div class="wpmysocial-menu-f wpmysocial-menu-group" style="display: none;">

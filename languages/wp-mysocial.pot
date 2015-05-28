@@ -1,7 +1,8 @@
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: WP My Social Networks\n"
-"POT-Creation-Date: 2014-09-22 14:37+0100\n"
+"POT-Creation-Date: 2015-05-28 12:14+0100\n"
 "PO-Revision-Date: 2014-09-22 14:37+0100\n"
 "Last-Translator: Florent <contact@restezconnectes.fr>\n"
 "Language-Team: Florent Maillefaud <contact@restezconnectes.fr>\n"
@@ -9,998 +10,292 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.5\n"
+"X-Generator: Poedit 1.8\n"
 "X-Poedit-KeywordsList: __;_e\n"
-"X-Poedit-Basepath: .\n"
+"X-Poedit-Basepath: ..\\\n"
 "Plural-Forms: nplurals=2; plural=n>1;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-SearchPath-0: C:\\wamp\\www\\www\\Plugin Wordpress\\wp-my-social-"
-"networks\n"
+"X-Poedit-SearchPath-0: .\n"
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:12
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:24
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:24
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:12
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:12
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:12
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:12
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:12
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:12
+#: wp-mysocials-admin.php:13
 msgid "Options saved."
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:25
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:37
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:37
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:25
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:25
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:25
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:25
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:25
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:25
+#: wp-mysocials-admin.php:23
+msgid "The Style Sheet has been reset!"
+msgstr ""
+
+#: wp-mysocials-admin.php:36
 msgid "Facebook"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:26
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:38
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:38
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:26
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:26
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:26
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:26
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:26
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:26
+#: wp-mysocials-admin.php:37
 msgid "Twitter"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:27
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:39
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:39
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:27
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:27
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:27
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:27
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:27
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:27
+#: wp-mysocials-admin.php:38
 msgid "Google+"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:28
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:40
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:40
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:28
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:29
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:29
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:29
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:29
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:29
+#: wp-mysocials-admin.php:39
+msgid "LinkedIn"
+msgstr ""
+
+#: wp-mysocials-admin.php:40
 msgid "AddThis"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:29
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:41
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:41
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:29
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:30
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:30
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:30
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:30
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:30
+#: wp-mysocials-admin.php:41
+msgid "CSS Style"
+msgstr ""
+
+#: wp-mysocials-admin.php:42
 msgid "Options"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:30
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:42
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:42
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:30
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:31
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:31
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:31
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:31
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:31
+#: wp-mysocials-admin.php:43
 msgid "About"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:44
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:56
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:56
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:44
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:45
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:45
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:45
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:45
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:45
+#: wp-mysocials-admin.php:57
 msgid "Facebook Like button"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:49
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:61
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:61
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:49
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:50
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:50
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:50
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:50
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:50
+#: wp-mysocials-admin.php:62
 msgid "Display the Facebook Like button"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:54
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:66
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:66
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:54
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:55
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:55
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:55
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:55
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:55
+#: wp-mysocials-admin.php:67
 msgid "Display the Facebook Send button"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:62
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:93
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:143
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:187
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:217
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:74
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:105
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:155
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:199
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:229
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:74
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:105
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:155
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:199
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:229
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:62
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:93
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:143
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:187
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:217
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:63
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:94
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:144
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:188
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:218
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:262
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:63
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:94
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:144
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:188
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:218
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:262
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:63
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:94
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:144
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:188
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:218
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:262
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:63
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:94
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:144
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:188
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:218
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:262
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:63
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:94
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:144
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:188
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:218
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:262
+#: wp-mysocials-admin.php:75 wp-mysocials-admin.php:106
+#: wp-mysocials-admin.php:156 wp-mysocials-admin.php:200
+#: wp-mysocials-admin.php:230 wp-mysocials-admin.php:274
 msgid "Select the type"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:65
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:77
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:77
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:65
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:66
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:66
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:66
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:66
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:66
+#: wp-mysocials-admin.php:78
 msgid "Position the Facebook Like"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:68
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:99
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:149
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:193
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:223
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:80
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:111
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:161
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:205
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:235
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:80
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:111
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:161
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:205
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:235
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:68
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:99
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:149
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:193
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:223
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:69
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:100
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:150
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:194
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:224
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:268
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:69
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:100
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:150
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:194
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:224
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:268
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:69
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:100
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:150
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:194
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:224
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:268
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:69
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:100
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:150
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:194
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:224
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:268
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:69
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:100
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:150
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:194
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:224
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:268
+#: wp-mysocials-admin.php:81 wp-mysocials-admin.php:112
+#: wp-mysocials-admin.php:162 wp-mysocials-admin.php:206
+#: wp-mysocials-admin.php:236 wp-mysocials-admin.php:280
 msgid "On the main page"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:71
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:102
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:152
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:196
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:226
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:83
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:114
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:164
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:208
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:238
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:83
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:114
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:164
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:208
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:238
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:71
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:102
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:152
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:196
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:226
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:72
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:103
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:153
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:197
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:227
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:271
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:72
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:103
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:153
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:197
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:227
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:271
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:72
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:103
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:153
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:197
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:227
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:271
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:72
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:103
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:153
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:197
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:227
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:271
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:72
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:103
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:153
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:197
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:227
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:271
+#: wp-mysocials-admin.php:84 wp-mysocials-admin.php:115
+#: wp-mysocials-admin.php:165 wp-mysocials-admin.php:209
+#: wp-mysocials-admin.php:239 wp-mysocials-admin.php:283
 msgid "On the posts"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:74
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:104
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:155
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:199
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:229
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:86
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:116
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:167
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:211
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:241
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:86
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:116
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:167
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:211
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:241
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:74
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:104
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:155
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:199
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:229
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:75
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:105
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:156
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:200
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:230
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:274
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:75
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:105
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:156
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:200
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:230
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:274
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:75
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:105
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:156
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:200
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:230
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:274
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:75
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:105
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:156
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:200
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:230
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:274
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:75
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:105
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:156
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:200
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:230
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:274
+#: wp-mysocials-admin.php:87 wp-mysocials-admin.php:117
+#: wp-mysocials-admin.php:168 wp-mysocials-admin.php:212
+#: wp-mysocials-admin.php:242 wp-mysocials-admin.php:286
 msgid "On the categories"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:77
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:107
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:158
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:202
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:232
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:89
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:119
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:170
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:214
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:244
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:89
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:119
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:170
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:214
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:244
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:77
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:107
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:158
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:202
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:232
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:78
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:108
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:159
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:203
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:233
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:277
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:78
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:108
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:159
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:203
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:233
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:277
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:78
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:108
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:159
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:203
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:233
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:277
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:78
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:108
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:159
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:203
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:233
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:277
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:78
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:108
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:159
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:203
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:233
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:277
+#: wp-mysocials-admin.php:90 wp-mysocials-admin.php:120
+#: wp-mysocials-admin.php:171 wp-mysocials-admin.php:215
+#: wp-mysocials-admin.php:245 wp-mysocials-admin.php:289
 msgid "On the pages"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:82
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:94
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:94
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:82
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:83
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:83
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:83
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:83
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:83
+#: wp-mysocials-admin.php:95
 msgid "Facebook Share button"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:85
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:97
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:97
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:85
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:86
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:86
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:86
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:86
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:86
+#: wp-mysocials-admin.php:98
 msgid "Display the Facebook Share button"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:96
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:108
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:108
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:96
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:97
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:97
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:97
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:97
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:97
+#: wp-mysocials-admin.php:109
 msgid "Position the Facebook Share"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:113
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:163
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:238
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:267
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:310
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:125
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:175
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:250
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:279
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:322
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:125
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:175
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:250
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:279
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:322
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:113
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:163
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:238
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:267
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:310
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:114
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:164
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:239
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:282
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:311
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:354
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:114
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:164
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:239
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:282
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:311
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:354
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:114
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:164
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:239
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:282
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:311
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:354
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:114
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:164
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:239
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:282
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:311
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:354
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:114
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:164
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:239
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:282
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:311
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:354
+#: wp-mysocials-admin.php:126 wp-mysocials-admin.php:176
+#: wp-mysocials-admin.php:251 wp-mysocials-admin.php:294
+#: wp-mysocials-admin.php:323 wp-mysocials-admin.php:346
+#: wp-mysocials-admin.php:389
 msgid "Save this settings"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:126
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:138
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:138
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:126
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:127
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:127
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:127
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:127
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:127
+#: wp-mysocials-admin.php:139
 msgid "Twitter button"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:130
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:142
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:142
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:130
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:131
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:131
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:131
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:131
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:131
+#: wp-mysocials-admin.php:143
 msgid "Display re-twitt button"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:135
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:147
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:147
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:135
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:136
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:136
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:136
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:136
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:136
+#: wp-mysocials-admin.php:148
 msgid "This user will be refered in the tweet"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:140
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:215
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:152
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:227
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:152
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:227
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:140
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:215
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:141
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:216
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:141
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:216
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:141
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:216
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:141
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:216
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:141
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:216
+#: wp-mysocials-admin.php:153 wp-mysocials-admin.php:228
 msgid "Vertical"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:141
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:216
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:153
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:228
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:153
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:228
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:141
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:216
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:142
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:217
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:142
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:217
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:142
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:217
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:142
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:217
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:142
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:217
+#: wp-mysocials-admin.php:154 wp-mysocials-admin.php:229
 msgid "Horizontal"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:142
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:154
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:154
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:142
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:143
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:143
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:143
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:143
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:143
+#: wp-mysocials-admin.php:155
 msgid "No count"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:146
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:158
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:158
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:146
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:147
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:147
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:147
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:147
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:147
+#: wp-mysocials-admin.php:159
 msgid "Position the Twitter button"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:175
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:187
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:187
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:175
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:176
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:176
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:176
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:176
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:176
+#: wp-mysocials-admin.php:188
 msgid "Google +1 button"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:178
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:190
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:190
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:178
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:179
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:179
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:179
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:179
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:179
+#: wp-mysocials-admin.php:191
 msgid "Display the +1 button"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:183
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:195
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:195
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:183
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:184
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:184
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:184
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:184
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:184
+#: wp-mysocials-admin.php:196
 msgid "Standard"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:184
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:196
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:196
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:184
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:185
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:185
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:185
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:185
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:185
+#: wp-mysocials-admin.php:197
 msgid "Small"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:185
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:197
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:197
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:185
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:186
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:186
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:186
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:186
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:186
+#: wp-mysocials-admin.php:198
 msgid "Medium"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:186
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:198
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:198
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:186
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:187
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:187
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:187
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:187
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:187
+#: wp-mysocials-admin.php:199
 msgid "Large"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:190
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:202
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:202
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:190
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:191
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:191
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:191
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:191
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:191
+#: wp-mysocials-admin.php:203
 msgid "Position the Google +1 button"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:206
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:218
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:218
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:206
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:207
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:207
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:207
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:207
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:207
+#: wp-mysocials-admin.php:219
 msgid "Google+ Share Button"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:209
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:221
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:221
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:209
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:210
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:210
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:210
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:210
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:210
+#: wp-mysocials-admin.php:222
 msgid "Display the Share Google+ Button"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:214
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:226
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:226
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:214
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:215
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:261
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:215
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:261
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:215
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:261
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:215
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:261
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:215
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:261
+#: wp-mysocials-admin.php:227 wp-mysocials-admin.php:273
 msgid "None"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:220
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:232
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:232
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:220
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:221
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:221
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:221
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:221
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:221
+#: wp-mysocials-admin.php:233
 msgid "Position the Google+ Share Button"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:251
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:263
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:263
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:251
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:295
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:295
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:295
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:295
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:295
+#: wp-mysocials-admin.php:263
+msgid "LinkedIn button"
+msgstr ""
+
+#: wp-mysocials-admin.php:266
+msgid "Display the LinkedIn button"
+msgstr ""
+
+#: wp-mysocials-admin.php:271
+msgid "Top"
+msgstr ""
+
+#: wp-mysocials-admin.php:272
+msgid "Right"
+msgstr ""
+
+#: wp-mysocials-admin.php:277
+msgid "Position the LinkedIn button"
+msgstr ""
+
+#: wp-mysocials-admin.php:307
 msgid "AddThis button"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:255
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:267
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:267
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:255
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:299
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:299
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:299
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:299
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:299
+#: wp-mysocials-admin.php:311
 msgid "Create your account here:"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:258
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:270
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:270
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:258
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:302
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:302
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:302
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:302
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:302
+#: wp-mysocials-admin.php:314
 msgid "Display Addthis button"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:261
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:273
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:273
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:261
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:305
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:305
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:305
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:305
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:305
+#: wp-mysocials-admin.php:317
 msgid "Addthis account"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:279
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:291
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:291
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:279
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:323
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:323
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:323
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:323
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:323
+#: wp-mysocials-admin.php:336
+msgid "CSS style sheet code:"
+msgstr ""
+
+#: wp-mysocials-admin.php:337
+msgid ""
+"Edit the CSS sheet here. Click \"Reset\" and \"Save\" to retrieve the "
+"default style sheet."
+msgstr ""
+
+#: wp-mysocials-admin.php:341
+msgid "Reset default CSS stylesheet ?"
+msgstr ""
+
+#: wp-mysocials-admin.php:358
 msgid "Don't display on Posts/Pages"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:281
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:293
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:293
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:281
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:325
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:325
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:325
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:325
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:325
+#: wp-mysocials-admin.php:360
 msgid ""
 "Enter the <b>ID's</b> of those Pages/Posts separated by comma. e.g "
 "13,5,87<br/>You can also include a <b>custom post types</b> or <b>custom "
 "post format</b> (all separated by comma)"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:284
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:296
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:296
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:284
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:328
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:328
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:328
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:328
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:328
+#: wp-mysocials-admin.php:363
 msgid "Don't display on Category"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:286
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:298
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:298
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:286
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:330
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:330
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:330
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:330
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:330
+#: wp-mysocials-admin.php:365
 msgid "Enter the ID's of those Categories separated by comma. e.g 131,45,817"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:291
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:303
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:303
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:291
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:335
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:335
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:335
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:335
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:335
+#: wp-mysocials-admin.php:370
 msgid "Where to Display"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:292
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:304
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:304
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:292
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:336
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:336
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:336
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:336
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:336
+#: wp-mysocials-admin.php:371
 msgid "Display Above Content"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:293
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:305
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:305
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:293
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:337
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:337
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:337
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:337
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:337
+#: wp-mysocials-admin.php:372
 msgid "Display Below Content"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:295
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:307
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:307
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:295
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:339
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:339
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:339
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:339
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:339
+#: wp-mysocials-admin.php:374
 msgid "If some other plugin is adding the Facebook Meta tags"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:296
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:308
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:308
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:296
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:340
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:340
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:340
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:340
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:340
+#: wp-mysocials-admin.php:375
 msgid "Do not add Facebook OG META tags"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:298
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:310
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:310
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:298
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:342
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:342
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:342
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:342
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:342
+#: wp-mysocials-admin.php:377
 msgid "Add a margin?"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:300
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:312
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:312
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:300
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:344
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:344
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:344
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:344
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:344
+#: wp-mysocials-admin.php:379
 msgid "Top margin:"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:305
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:317
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:317
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:305
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:349
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:349
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:349
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:349
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:349
+#: wp-mysocials-admin.php:384
 msgid "Bottom margin:"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:324
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:336
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:336
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:324
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:368
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:368
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:368
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:368
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:368
+#: wp-mysocials-admin.php:403
 msgid ""
 "This plugin has been developed for you for free by <a href=\"http://www."
 "restezconnectes.fr\" target=\"_blank\">Florent Maillefaud</ a>. It is "
@@ -1009,133 +304,35 @@ msgid ""
 "changes to improve this plugin for all."
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials-admin.php:329
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials-admin.php:341
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials-admin.php:341
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials-admin.php:329
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:373
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:373
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:373
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:373
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:373
+#: wp-mysocials-admin.php:408
 msgid ""
 "If you want Donate (French Paypal) for my current and future developments:"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials.php:41
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials.php:44
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials.php:44
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials.php:45
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials.php:46
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials.php:47
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials.php:47
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials.php:48
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials.php:48
+#: wp-mysocials.php:51
 msgid "Settings"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials.php:319
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials.php:322
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials.php:312
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials.php:313
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials.php:332
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials.php:343
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials.php:333
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials.php:378
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials.php:378
-msgid "Display social networks options"
-msgstr ""
-
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.0/wp-mysocials.php:319
-#: Wordpress\wp-my-social-networks/tags/1.1/wp-mysocials.php:322
-#: Wordpress\wp-my-social-networks/tags/1.2/wp-mysocials.php:312
-#: Wordpress\wp-my-social-networks/tags/1.3/wp-mysocials.php:313
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials.php:332
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials.php:343
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials.php:333
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials.php:378
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials.php:378
-msgid "Social Networks"
-msgstr ""
-
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:28
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:28
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:28
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:28
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:28
-msgid "LinkedIn"
-msgstr ""
-
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:251
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:251
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:251
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:251
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:251
-msgid "LinkedIn button"
-msgstr ""
-
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:254
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:254
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:254
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:254
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:254
-msgid "Display the LinkedIn button"
-msgstr ""
-
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:259
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:259
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:259
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:259
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:259
-msgid "Top"
-msgstr ""
-
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:260
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:260
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:260
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:260
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:260
-msgid "Right"
-msgstr ""
-
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.4/wp-mysocials-admin.php:265
-#: Wordpress\wp-my-social-networks/tags/1.5/wp-mysocials-admin.php:265
-#: Wordpress\wp-my-social-networks/tags/1.6/wp-mysocials-admin.php:265
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials-admin.php:265
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials-admin.php:265
-msgid "Position the LinkedIn button"
-msgstr ""
-
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials.php:61
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials.php:61
+#: wp-mysocials.php:64 wp-mysocials.php:65
 msgid "Display the sharing buttons"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials.php:68
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials.php:68
+#: wp-mysocials.php:72
 msgid "Choose whether or not to display buttons for social networks:"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials.php:69
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials.php:69
+#: wp-mysocials.php:73
 msgid "Yes"
 msgstr ""
 
-#: C:\wamp\www\www\Plugin
-#: Wordpress\wp-my-social-networks/tags/1.7/wp-mysocials.php:72
-#: Wordpress\wp-my-social-networks/trunk/wp-mysocials.php:72
+#: wp-mysocials.php:76
 msgid "No"
+msgstr ""
+
+#: wp-mysocials.php:397
+msgid "Display social networks options"
+msgstr ""
+
+#: wp-mysocials.php:397
+msgid "Social Networks"
 msgstr ""

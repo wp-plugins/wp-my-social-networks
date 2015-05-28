@@ -1,17 +1,20 @@
 <?php
 
 /*
-Plugin Name: WP My Social Networks
-Plugin URI: http://wordpress.org/plugins/wp-my-social-networks
-Description: Propose un encart avec différents réseaux sociaux. Facebook Like & Send, Twitter, +1 de Google. Le tout paramètrable et en multilangue.
-Author: Florent Maillefaud
-Author URI: http://www.restezconnectes.fr/
-Version: 1.7
-*/
+ * Plugin Name: WP My Social Networks
+ * Plugin URI: http://wordpress.org/plugins/wp-my-social-networks
+ * Description: Propose un encart avec différents réseaux sociaux. Facebook Like & Send, Twitter, +1 de Google. Le tout paramètrable et en multilangue.
+ * Author: Florent Maillefaud
+ * Author URI: http://www.restezconnectes.fr/
+ * Version: 1.8
+ * Text Domain: wp-mysocial
+ * Domain Path: /languages/
+ */
 
 
 /*
 Change Log
+28/05/2015 - Compatibilité WP 4.2.2
 22/09/2014 - Ajout d'une metabox pour le choix d'affichage sur chaque article
 09/02/2014 - Amélioration pour le responsive design
 05/11/2013 - Ajout LinkedIn et images admin
@@ -319,6 +322,10 @@ function wpmysocials_css() {
     $siteurl = get_option('siteurl');
     $url = $siteurl.'/wp-content/plugins/'.basename(dirname(__FILE__)).'/wp-mysocials-css.css';
     echo "<link href='$url' rel='stylesheet' type='text/css' />";
+    if(!get_option('wpmysocial_plugin_style') or get_option('wpmysocial_plugin_style')=='') { 
+        update_option('wpmysocial_plugin_style', wpsocials_print_style());
+    }
+    echo "<style type='text/css'>".get_option('wpmysocial_plugin_style').'</style>';
 }
 
 function plusOneOptions() {
@@ -329,6 +336,20 @@ function plusOneOptions() {
     echo "<script type=\"text/javascript\" src=\"https://apis.google.com/js/plusone.js\">{lang: '".get_option('wpmysocial_plugin_lang')."'}</script>
 ";
     }
+}
+/* Feuille de style par défault */
+function wpsocials_print_style() {
+
+return '
+#wp-socials-general-btn { float: left;min-height:22px; }
+#wp-socials-fb-like { float:left;margin-right:5px;min-height: 30px; }
+#wp-socials-fb-share { float:left;margin-right:5px;min-height: 30px; }
+#wp-socials-twitter { float:left;margin-right:5px;margin-top: 2px;max-width: 95px;min-height: 30px; }
+#wp-socials-linkedin { float:left;margin-right:5px;margin-top: 4px;min-height: 30px; }
+#wp-socials-plusone { float:left;margin-right:5px;margin-top: 4px;min-height: 30px; }
+#wp-socials-addthis { float:left;margin-right:5px;margin-top: 4px;min-height: 30px; }
+';
+    
 }
 
 function wpsocials_add_meta() {
@@ -398,7 +419,8 @@ function wpmysocials_admin() {
             'plusone_btn' => 1,
             'plusone_type_btn' => 'medium',
             'margin_top' => 20,
-            'margin_bottom' => 0
+            'margin_bottom' => 0,
+            'wpmysocial_belowpost' => 1
         );  
         $wpmysocials_Settings = get_option('wpmysocial_plugin_settings');  
         if (!empty($wpmysocials_Settings)) {  
@@ -407,11 +429,15 @@ function wpmysocials_admin() {
             }
         }
         update_option('wpmysocial_plugin_settings', $wpmysocials_AdminOptions);
+        
+        if(!get_option('wpmysocial_plugin_style') or get_option('wpmysocial_plugin_style')=='') { 
+            update_option('wpmysocial_plugin_style', wpsocials_print_style());
+        }
     }
     
         
     /* Ajoute la version dans les options */
-    add_option('wpmysocial_plugin_version', '1.7');
+    add_option('wpmysocial_plugin_version', '1.8');
     
     // On recupère la langue
     $recupLang = explode('_', WPLANG);

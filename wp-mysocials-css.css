@@ -15,14 +15,6 @@
 .wp-socials input[type="reset"],
 .wp-socials select { float:right;}
 
-#wp-socials-general-btn { float: left;min-height:22px; }
-#wp-socials-fb-like { float:left;margin-right:5px;min-height: 30px; }
-#wp-socials-fb-share { float:left;margin-right:5px;min-height: 30px; }
-#wp-socials-twitter { float:left;margin-right:5px;margin-top: 4px;max-width: 95px;min-height: 30px; }
-#wp-socials-linkedin { float:left;margin-right:5px;margin-top: 4px;min-height: 30px; }
-#wp-socials-plusone { float:left;margin-right:5px;margin-top: 4px;min-height: 30px; }
-#wp-socials-addthis { float:left;margin-right:5px;margin-top: 4px;min-height: 30px; }
-
 .wp-social-espace5 { margin-bottom: 5px; }
 .wp-social-espace8 { margin-bottom: 8px; }
 
